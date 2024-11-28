@@ -3,11 +3,181 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <title>GosZakaz</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/media.css">
 </head>
 <body>
-  
+  <div class="wrapper">
+    <div class="container">
+      <header class="header">
+        <div class="header__logo logo">
+          <div class="logo__back">
+            <div class="logo__front"></div>
+          </div>
+        </div>
+        <div class="header__right">
+          <nav class="header__navigation">
+            <div class="burger">
+              <span class="burger__line"></span>
+            </div>
+            <ul class="header__menu menu">
+              <li class="menu__item item">
+                <a href="#">
+                  <p class="item__text">Главная</p>
+                </a>
+              </li>
+              <li class="menu__item item">
+                <a href="#">
+                  <p class="item__text">О нас</p>
+                </a>
+              </li>
+              <li class="menu__item item">
+                <a href="#">
+                  <p class="item__text">Контакты</p>
+                </a>
+              </li>
+              <li class="menu__item item">
+                <a href="#">
+                  <p class="item__text">Поиск</p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__phone phone">
+            <img src="img/icons/phone.svg" alt="phone-icon" class="phone__icon">
+            <a href="tel:898788787" class="phone__tel">+7 (987) 887-87</a>
+          </div>
+        </div>
+      </header>
+    </div>
+    <section class="promo">
+      <div class="promo__img"></div>
+    </section>
+    <main class="main">
+      <div class="container">
+        <div class="main__flex-container">
+          <aside class="main__aside aside">
+            <h2 class="aside__title">Популярные новости</h2>
+            <ul class="aside__news news">
+              <li class="news__item">
+                <p class="news__title">
+                  ITAM&SAMDay – самая настоящая удача!
+                </p>
+                <p class="news__date">13 дек 2020</p>
+              </li>
+              <li class="news__item">
+                <p class="news__title">
+                  Секреты лицензирования. Всё, что вы хотели знать про Microsoft, SAP и Oracle, но не знали, у кого спросить ...
+                </p>
+                <p class="news__date">10 дек 2020</p>
+              </li>
+              <li class="news__item">
+                <p class="news__title">
+                  Менеджмент XXI века. Надо ли готовиться к изменениям или мы давно уже должны были измениться?
+                </p>
+                <p class="news__date">5 дек 2020</p>
+              </li>
+            </ul>
+            <div class="aside__subscribe subscribe">
+              <p class="subscribe__title">Подписка на рассылку</p>
+              <div class="subscribe__form-group">
+                <input class="subscribe__input" type="text" placeholder="Email@gmail.com">
+                <button class="subscribe__button" type="submit">
+                  Подписаться
+                  <img src="./img//icons/arrow.svg" alt="arrow-right">
+                </button>
+              </div>
+            </div>
+          </aside>
+          <section class="main__blog blog">
+            <div class="blog__item">
+              <article class="blog__article article">
+                <div class="article__data">
+                  <div class="article__category-wrapper">
+                    <p class="article__category">Категория 1</p>
+                  </div>
+                  <div class="article__date-wrapper">
+                    <p class="article__date">13 дек 2020</p>
+                  </div>
+                </div>
+                <h4 class="article__title">
+                  Управление ИТ-активами – скучная рутина или творческая задача?
+                </h4>
+                <p class="article__text">
+                  Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс отчёт, решив проверить, нужен ли он вообще. 
+                </p>
+              </article>
+            </div>
+            <div class="blog__item">
+              <article class="blog__article article">
+                <div class="article__data">
+                  <div class="article__category-wrapper">
+                    <p class="article__category">Категория 1</p>
+                  </div>
+                  <div class="article__date-wrapper">
+                    <p class="article__date">13 дек 2020</p>
+                  </div>
+                </div>
+                <h4 class="article__title">
+                  Управление ИТ-активами – скучная рутина или творческая задача?
+                </h4>
+                <p class="article__text">
+                  Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс отчёт, решив проверить, нужен ли он вообще. 
+                </p>
+              </article>
+              <article class="blog__article article article_blue">
+                <div class="article__data">
+                  <div class="article__category-wrapper">
+                    <p class="article__category">Категория 1</p>
+                  </div>
+                  <div class="article__date-wrapper">
+                    <p class="article__date">13 дек 2020</p>
+                  </div>
+                </div>
+                <h4 class="article__title">
+                  ITAM&SAMDay – самая настоящая удача!
+                </h4>
+              </article>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="footer">
+    <div class="footer__logo logo">
+      <div class="logo__back">
+        <div class="logo__front"></div>
+      </div>
+    </div>
+    <ul class="footer__menu menu">
+      <li class="menu__item item">
+        <a href="#">
+          <p class="item__text">Главная</p>
+        </a>
+      </li>
+      <li class="menu__item item">
+        <a href="#">
+          <p class="item__text">О нас</p>
+        </a>
+      </li>
+      <li class="menu__item item">
+        <a href="#">
+          <p class="item__text">Контакты</p>
+        </a>
+      </li>
+      <li class="menu__item item">
+        <a href="#">
+          <p class="item__text">Поиск</p>
+        </a>
+      </li>
+    </ul>
+    <div class="footer__rights">
+      <p class="footer__rights-text">ООО “Организация” 2020. Все права защищены</p>
+    </div>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,140 @@
+@media (max-width: 1024px) {
+  .header__menu {
+    display: none;
+  }
+
+  .header__right {
+    flex-direction: row-reverse;
+  }
+
+  .menu.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-bg-secondary-light);
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .promo {
+    height: 250px;
+  }
+
+  .promo__img {
+    background-image: url('./../img/hero1024.jpg');
+  }
+
+  .main__flex-container {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .aside {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .news {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .news__item {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .subscribe {
+    padding: 40px 150px 50px 150px;
+  }
+
+  .subscribe__title {
+    margin-bottom: 20px;
+  }
+
+  .subscribe__form-group {
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .subscribe__input {
+    width: 320px;
+  }
+
+  .subscribe__button {
+    width: 244px;
+  }
+
+  .blog {
+    width: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    margin: 0 auto;
+  }
+
+  .logo { 
+    margin-left: 20px;
+  }
+
+  .burger {
+    right: 20px;
+  }
+
+  .blog {
+    margin: 0 20px;
+    width: auto;
+  }
+
+  .aside__title {
+    margin: 0 20px;
+    width: auto;
+  }
+
+  .news {
+    margin: 0 20px;
+    width: auto;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .subscribe {
+    border-radius: 0;
+    padding: 40px 20px 50px 20px;
+  }
+
+  .subscribe__form-group {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .subscribe__input {
+    width: 100%;
+  }
+
+  .subscribe__button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 325px) {
+  .promo {
+    height: 150px;
+  }
+
+  .promo__img {
+    background-image: url('./../img/hero320.jpg');
+  }
+}
